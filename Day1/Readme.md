@@ -16,19 +16,16 @@ pip install selenium
 ```
 ✅ Selenium 3 vs Selenium 4 - Key Differences:
 
-Feature                Selenium 3                                           Selenium 4
 
-Architecture        Requires JSON Wire Protocol                             Requires JSON Wire Protocol
 
-Uses                W3C WebDriver                                           protocol directly
-
-WebDriver setup     Needs DesiredCapabilities                               Uses Options class
-
-Browser-specific    driver classes Direct instantiation (e.g. Chrome())     Improved and unified handling
-
-Relative Locators   Not supported                                           Introduced
-
-DevTools Protocol Support   Not supported                                   Supported
+|Feature           			|    Selenium 3                                        |   	Selenium 4	|
+|---------------------------|------------------------------------------------------|-----------------------------------|
+|Architecture        		|	Requires JSON Wire Protocol                        |     Requires JSON Wire Protocol|
+|Uses                		|	W3C WebDriver                                      |     protocol directly|
+|WebDriver setup     		|	Needs DesiredCapabilities                          |    Uses Options class|
+|Browser-specific    		|	driver classes Direct instantiation (e.g. Chrome())|     Improved and unified handling|
+|Relative Locators   		|	Not supported                                      |    Introduced|
+|DevTools Protocol Support  | 	Not supported                                      |	Supported|
 
 
 Example Selenium 4 Setup:
